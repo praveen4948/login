@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: #1e272e;
+  --main-color: #0097e6;
+}
+.main_menu {
+  color: #fff;
+  background-color: var(--main-bg);
+}
+.navbar {
+  color: red;
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.navbar a:hover {
+  color: var(--main-color);
+}
+
+.navbar li {
+  margin-left: 2rem;
+}
+
+.navbar-toggler {
+  background-color: gray;
+  color: #fff;
+}
+
+/* Password css */
+.pass {
+  display: flex;
+}
+.pass .password {
+  margin-right: 6px;
+}
+.pass .cpassword {
+  margin-left: 6px;
+}
+section {
+  background-color: #7fcaf2;
+}
+
+/* index css */
+.note {
+  display: flex;
+  justify-content: center;
+  height: 84%;
+  flex-direction: column;
+  background-color: #7fcaf2;
+
+  align-items: center;
+}
+.note h1 {
+  font-size: 130px;
+  margin-bottom: 60px;
+}
+
+.ragisimg img {
+  margin-left: -70px;
+}
+.ragisform div {
+  width: 40rem;
+}

@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+  {{>header}}
+</head>
+
+<body>
+
+  {{>nav}}
+
+  
+{{!-- main form --}}
+
+<section class="vh-100">
+  <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+     
+              <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center ragisimg">
+
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                  class="img-fluid" alt="Sample image">
+
+              </div>
+              <div class="col-md-10 col-lg-6 col-xl-5 ">
+
+                <p class=" h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+
+                <form action="/ragister" method="post" class="mx-1 mx-md-4 ragisform">
+
+                  <div class="form-outline mb-3">
+                    <input type="text" id="form3Example4" class="form-control form-control-lg" name="name"/>
+                    <label class="form-label" for="form3Example4">Name</label>
+                  </div>
+                  
+                  <div class="form-outline mb-3">
+                    <input type="text" id="form3Example4" class="form-control form-control-lg" name="email"/>
+                    <label class="form-label" for="form3Example4">Your Email</label>
+                  </div>
+                  <div class="form-outline mb-3">
+                    <input type="text" id="form3Example4" class="form-control form-control-lg" name="contact"/>
+                    <label class="form-label" for="form3Example4">Contact</label>
+                  </div>
+
+                  <div class="form-outline mb-3 pass">
+                    <div class="password">
+                      <input type="password" id="form3Example4" class="form-control form-control-lg" name="password"/>
+                      <label class="form-label" for="form3Example4">Password</label>
+                    </div>
+                    <div class="cpasseord">
+                      <input type="password" id="form3Example4" class="form-control form-control-lg" name="cpassword"/>
+                      <label class="form-label" for="form3Example4">Confirm Password</label>
+                    </div>
+                  </div>
+
+                   <div class="text-center text-lg-start mt-4 pt-2">
+                    <button type="submit" class="btn btn-primary btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Ragister</button>
+                    <p class="small fw-bold mt-2 pt-1 mb-0">Allready Ragister? <a href="/login"
+                    class="link-danger">Login</a></p>
+                  </div>
+
+                </form>
+
+              </div>
+        
+    </div>
+  </div>
+</section>
+
+{{>footer}}
+
+
+  {{>bootstrap_script}}
+</body>
+
+</html>
